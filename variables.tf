@@ -3,11 +3,11 @@
 ###############
 
 variable "aws_access_key" {
-  default = "AKIAYT34IHRFZCCRHC6O"
+  default = "AKIsdf34IHRFZCCRHC6O"
 }
 
 variable "aws_secret_key" {
-  default = "nNtd53uquQVUPbOxdQwenqUEaWIspcl+j8psRUa1"
+  default = "nNtdsdguquQVUPbfghQwenqUEaWIspcl+j8psRUa1"
 }
 
 variable "aws_region" {
@@ -15,7 +15,7 @@ variable "aws_region" {
 }
 
 variable "aws_key_name" {
-  default = "York"
+  default = "YOURKEY"
 }
 
 ###############
@@ -52,7 +52,7 @@ variable "gitlab_runner_count" {
 }
 
 variable "terraform_self_IP" {
-  default = "220.238.18.137/32"
+  default = "220.238.19.137/32"
 }
 
 variable "gitlab_self_IP" {
