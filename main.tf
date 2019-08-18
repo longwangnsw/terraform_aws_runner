@@ -33,7 +33,7 @@ resource "aws_instance" "my-runner-instance" {
       host        = self.public_ip
       type        = "ssh"
       user        = "ubuntu"
-      private_key = "${file("York.pem")}"
+      private_key = "${file("YOURKEY.pem")}"
     }
 
     inline = [
