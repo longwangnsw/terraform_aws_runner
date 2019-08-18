@@ -12,7 +12,7 @@
 ├───aws_ami.tf
 ├───aws_vpc.tf
 ├───main.tf
-├───variables.tf
+├───variable.tf
 └───YOURKEY.pem
 
 ```
